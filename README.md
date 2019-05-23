@@ -10,11 +10,11 @@ En aquesta pràctica és farà servir getopts per a que l'usuari pugui seleccion
 Github https://github.com/a17sam/proyecto3
 ```
 
-###  disable-local-user.sh
+###disable-local-user.sh
 Es un script que mira si l'usuari que executarà es superusuari, també deshabilitar a l’usuari ficant només el nom (si el seu UID és major a 1000 ja que no serà del sistema )
 
 
 Las opciones son:
--d Borrar cuentas en lugar de deshabilitarlas.
--r Eliminar el directorio de inicio asociado con la cuenta.
--a Crear una copia del directorio de inicio asociado a la cuenta.
+*-d Borrar cuentas en lugar de deshabilitarlas.
+*-r Eliminar el directorio de inicio asociado con la cuenta.
+*-a Crear una copia del directorio de inicio asociado a la cuenta.
